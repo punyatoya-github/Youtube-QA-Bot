@@ -1,6 +1,6 @@
-🎥 AI-Powered YouTube Summarizer & QA Tool
+# 🎥 AI-Powered YouTube Summarizer & QA Tool
 
-📌 Overview
+## 📌 Overview
 
 This project is an AI-powered Question Answering (QA) and Summarization Tool for
 YouTube videos. It leverages LangChain, FAISS, and IBM Watsonx LLMs to:
@@ -14,7 +14,7 @@ inefficient. This tool automates the process, making video content more accessib
 searchable, and insightful.
 
 
-✨ Features
+## ✨ Features
 
     •  Transcript Extraction: Automatically fetches transcripts (manual or auto-generated) from YouTube videos.
     
@@ -29,7 +29,7 @@ searchable, and insightful.
     •  Interactive UI: Built with Gradio for a user-friendly web interface.
 
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
     •  Python 3.11+
     •  LangChain (text processing, LLM orchestration)
@@ -39,7 +39,7 @@ searchable, and insightful.
     •  Streamlit (optional UI alternative)
     •  IBM Watsonx.ai (LLMs & embeddings)
 
-⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repository
 
@@ -56,7 +56,7 @@ searchable, and insightful.
 
         pip install -r requirements.txt
 
-🚀 Usage
+## 🚀 Usage
 
 Run the application
 
@@ -69,7 +69,7 @@ Workflow
 3.  Ask a question in the Ask a Question box.
 4.  Get context-aware answers powered by FAISS + LLM.
 
-📂 Folder Structure
+## 📂 Folder Structure
 
     youtube-qa-bot/
     │── ytbot.py                # Main application script
@@ -79,7 +79,7 @@ Workflow
     │── .gitignore              # Ignored files and folders
     │── /my_env                 # Virtual environment (ignored in .gitignore)
 
-🧪 Testing the Application
+## 🧪 Testing the Application
 
 You can test the tool with this sample video:
 
@@ -89,30 +89,30 @@ Example interactions:
 
 •  Summary: Generates a concise overview of the video.
 
-•  Questions:
+ •  Questions:
 
-o  "How does one reduce hallucinations?"
-o  "Which problems does RAG solve, according to the video?"
+      o  "How does one reduce hallucinations?"
+      o  "Which problems does RAG solve, according to the video?"
 
-📸 Screenshots
+## 📸 Screenshots
 
-•  Generated Summary and Q&A Example
+Generated Summary and Q&A Example
 
-![Youtube Video Summary](Youtube-QA-Bot/Youtube_summarizer.png)
+![Youtube Video Summary](Youtube_summarizer.png)
 
-📈 Next Steps / Enhancements
+## 📈 Next Steps / Enhancements
 
     •     Multi-language transcript support
     •     Sentiment analysis on video content
     •     Export summaries & answers as structured reports
     •     Streamlit-based dashboard alternative
 
-👨‍💻 Authors
+## 👨‍💻 Authors
 
-•  Punyatoya Mohanty
+ Punyatoya Mohanty
 
-📜 License
+## 📜 License
 
 This project is licensed under the Punyatoya Mohanty's Non-Commercial License.
-See the LICENSE file for details.
+See the [LICENSE](LICENSE.md) file for details.
 
