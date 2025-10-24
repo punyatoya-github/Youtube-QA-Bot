@@ -5,9 +5,9 @@
 This project is an AI-powered Question Answering (QA) and Summarization Tool for
 YouTube videos. It leverages LangChain, FAISS, and IBM Watsonx LLMs to:
 
-      •  Extract transcripts from YouTube videos
-      •  Generate concise summaries
-      •  Answer user queries based on video content
+*  Extract transcripts from YouTube videos
+*  Generate concise summaries
+*  Answer user queries based on video content
 
 With the explosion of online video content, manually searching through lengthy footage is
 inefficient. This tool automates the process, making video content more accessible,
@@ -16,28 +16,28 @@ searchable, and insightful.
 
 ## ✨ Features
 
-    •  Transcript Extraction: Automatically fetches transcripts (manual or auto-generated) from YouTube videos.
+*  Transcript Extraction: Automatically fetches transcripts (manual or auto-generated) from YouTube videos.
     
-    •  Summarization: Generates concise, context-aware summaries of video transcripts.
+*  Summarization: Generates concise, context-aware summaries of video transcripts.
     
-    •  Question Answering: Answers user queries based on the video’s content using Retrieval-Augmented Generation (RAG).
+*  Question Answering: Answers user queries based on the video’s content using Retrieval-Augmented Generation (RAG).
     
-    •  Chunking & Embeddings: Splits transcripts into manageable chunks and embeds them using IBM SLATE-30M embeddings.
+*  Chunking & Embeddings: Splits transcripts into manageable chunks and embeds them using IBM SLATE-30M embeddings.
     
-    •  Similarity Search with FAISS: Efficient retrieval of relevant transcript segments.
+*  Similarity Search with FAISS: Efficient retrieval of relevant transcript segments.
     
-    •  Interactive UI: Built with Gradio for a user-friendly web interface.
+*  Interactive UI: Built with Gradio for a user-friendly web interface.
 
 
 ## 🛠 Tech Stack
 
-    •  Python 3.11+
-    •  LangChain (text processing, LLM orchestration)
-    •  FAISS (vector similarity search)
-    •  YouTube Transcript API (transcript extraction)
-    •  Gradio (web interface)
-    •  Streamlit (optional UI alternative)
-    •  IBM Watsonx.ai (LLMs & embeddings)
+*  Python 3.11+
+*  LangChain (text processing, LLM orchestration)
+*  FAISS (vector similarity search)
+*  YouTube Transcript API (transcript extraction)
+*  Gradio (web interface)
+*  Streamlit (optional UI alternative)
+*  IBM Watsonx.ai (LLMs & embeddings)
 
 ## ⚙️ Installation
 
@@ -58,16 +58,16 @@ searchable, and insightful.
 
 ## 🚀 Usage
 
-Run the application
+### Run the application
 
         python ytbot.py
 
-Workflow
+### Workflow
 
-1.  Enter a YouTube video URL.
-2.  Click Summarize Video to generate a summary.
-3.  Ask a question in the Ask a Question box.
-4.  Get context-aware answers powered by FAISS + LLM.
+1. Enter a YouTube video URL.
+2. Click "Summarize Video" to generate a summary.
+3. Ask a question in the "Ask a Question" box.
+4. Get context-aware answers powered by FAISS + LLM.
 
 ## 📂 Folder Structure
 
@@ -87,12 +87,12 @@ You can test the tool with this sample video:
 
 Example interactions:
 
-•  Summary: Generates a concise overview of the video.
+*  Summary: Generates a concise overview of the video.
 
- •  Questions:
+*  Questions:
 
-      o  "How does one reduce hallucinations?"
-      o  "Which problems does RAG solve, according to the video?"
+      *  "How does one reduce hallucinations?"
+      *  "Which problems does RAG solve, according to the video?"
 
 ## 📸 Screenshots
 
@@ -102,10 +102,10 @@ Generated Summary and Q&A Example
 
 ## 📈 Next Steps / Enhancements
 
-    •     Multi-language transcript support
-    •     Sentiment analysis on video content
-    •     Export summaries & answers as structured reports
-    •     Streamlit-based dashboard alternative
+* Multi-language transcript support
+* Sentiment analysis on video content
+* Export summaries & answers as structured reports
+* Streamlit-based dashboard alternative
 
 ## 👨‍💻 Authors
 
