@@ -43,8 +43,8 @@ searchable, and insightful.
 
 1. Clone the repository
 
-        git clone https://github.com/your-username/youtube-qa-bot.git
-        cd youtube-qa-bot
+        git clone https://github.com/your-username/Youtube-QA-Bot.git
+        cd Youtube-QA-Bot
 
 2. Create and activate a virtual environment
 
